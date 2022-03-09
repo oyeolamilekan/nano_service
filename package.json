@@ -1,0 +1,17 @@
+{
+  "name": "address-validator",
+  "version": "1.0.0",
+  "description": "a microservice to validate cryptocurrency addresses.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Oye olalekan johnson",
+  "license": "ISC",
+  "dependencies": {
+    "@swyftx/api-crypto-address-validator": "^1.13.1",
+    "express": "^4.17.3"
+  }
+}
