@@ -11,7 +11,6 @@ app.get("/validate_address/:currency/:address", (req, res) => {
             address
         } = req.params;
         const valid = WAValidator.validate(address, currency);
-        console.log(fff);
         res.status(200).send({
             "is_valid": valid
         }).end()
